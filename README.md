@@ -1,8 +1,22 @@
 # COS1103 Flowgorithm Practice
 
-แบบฝึกหัดส่วนตัวสำหรับฝึกออกแบบอัลกอริทึมด้วย Flowgorithm ตั้งแต่การทำงานตามลำดับ การตรวจสอบข้อมูลด้วย `Do...While` ไปจนถึงโจทย์ที่มีข้อมูลหลายค่าซึ่งสัมพันธ์กัน
+แบบฝึกหัดส่วนตัวสำหรับฝึกออกแบบอัลกอริทึมด้วย **Flowgorithm และ Pseudocode** ตั้งแต่การทำงานตามลำดับ การตรวจสอบข้อมูลด้วย `Do...While` ไปจนถึงโจทย์ที่มีข้อมูลหลายค่าซึ่งสัมพันธ์กัน
 
-> A first-year computer science practice repository containing 20 Flowgorithm programs. The exercises demonstrate sequence, input validation, calculations, and validation between related inputs.
+> A first-year computer science practice repository containing 20 Flowgorithm programs with readable pseudocode and flowchart previews.
+
+## ดูงานบน GitHub อย่างไร
+
+แต่ละโจทย์มีไฟล์ 3 แบบ:
+
+| ไฟล์ | ใช้ทำอะไร |
+|---|---|
+| `.md` | อ่านโจทย์ ดูภาพผังงาน และอ่าน Pseudocode บน GitHub |
+| `.png` | ภาพผังงานที่ถอดจากตรรกะในไฟล์ต้นฉบับ |
+| `.fprg` | ไฟล์ต้นฉบับสำหรับดาวน์โหลดไปเปิดด้วย Flowgorithm |
+
+> **สำคัญ:** หากกดไฟล์ `.fprg` บน GitHub จะเห็นข้อมูล XML เพราะ GitHub แสดงโครงสร้างภายในของไฟล์ ไม่ได้หมายความว่าเป็น Python หรือไฟล์เสีย ให้กดลิงก์ **ดูผังงาน + Pseudocode** ในตารางด้านล่างแทน
+
+![ตัวอย่างผังงานตรวจสอบคะแนน](02-input-validation/images/score-validation.png)
 
 ## จุดประสงค์
 
@@ -10,6 +24,7 @@
 - ฝึกตั้งชื่อตัวแปรและเลือกชนิดข้อมูล
 - ป้องกันข้อมูลนอกช่วงด้วย `Do...While`
 - ฝึกคำนวณจากข้อมูลหลายค่า
+- อธิบายตรรกะของโปรแกรมด้วย Pseudocode
 - เก็บหลักฐานพัฒนาการด้านการเขียนโปรแกรมตั้งแต่ปี 1
 
 ## ลำดับการเรียนรู้
@@ -24,52 +39,51 @@
 
 ### 1. Basic sequence
 
-- [`rectangle-area.fprg`](01-basic-sequence/rectangle-area.fprg) — คำนวณพื้นที่สี่เหลี่ยมผืนผ้า
-- [`midterm-final-total.fprg`](01-basic-sequence/midterm-final-total.fprg) — รวมคะแนนกลางภาคและปลายภาค
-- [`three-subject-average.fprg`](01-basic-sequence/three-subject-average.fprg) — หาคะแนนเฉลี่ย 3 วิชา
-- [`vat-calculator.fprg`](01-basic-sequence/vat-calculator.fprg) — คำนวณ VAT 7% และยอดสุทธิ
+| แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
+|---|---|---|
+| คำนวณพื้นที่สี่เหลี่ยมผืนผ้า | [ดูผังงาน + Pseudocode](01-basic-sequence/rectangle-area.md) | [ดาวน์โหลด `.fprg`](01-basic-sequence/rectangle-area.fprg) |
+| รวมคะแนนกลางภาคและปลายภาค | [ดูผังงาน + Pseudocode](01-basic-sequence/midterm-final-total.md) | [ดาวน์โหลด `.fprg`](01-basic-sequence/midterm-final-total.fprg) |
+| หาคะแนนเฉลี่ย 3 วิชา | [ดูผังงาน + Pseudocode](01-basic-sequence/three-subject-average.md) | [ดาวน์โหลด `.fprg`](01-basic-sequence/three-subject-average.fprg) |
+| คำนวณ VAT 7% และยอดสุทธิ | [ดูผังงาน + Pseudocode](01-basic-sequence/vat-calculator.md) | [ดาวน์โหลด `.fprg`](01-basic-sequence/vat-calculator.fprg) |
 
 ### 2. Input validation
 
-- [`age-validation.fprg`](02-input-validation/age-validation.fprg) — อายุ 1–120 ปี
-- [`price-validation.fprg`](02-input-validation/price-validation.fprg) — ราคา 1–5,000 บาท
-- [`quantity-validation.fprg`](02-input-validation/quantity-validation.fprg) — จำนวนสินค้า 1–100 ชิ้น
-- [`score-validation.fprg`](02-input-validation/score-validation.fprg) — คะแนน 0–100
-- [`midterm-score-validation.fprg`](02-input-validation/midterm-score-validation.fprg) — คะแนนกลางภาค 0–40
-- [`temperature-validation.fprg`](02-input-validation/temperature-validation.fprg) — อุณหภูมิ -40 ถึง 60 องศาเซลเซียส
-- [`battery-validation.fprg`](02-input-validation/battery-validation.fprg) — แบตเตอรี่ 0–100%
-- [`work-hours-validation.fprg`](02-input-validation/work-hours-validation.fprg) — ชั่วโมงทำงาน 1–12 ชั่วโมง
-- [`discount-calculator.fprg`](02-input-validation/discount-calculator.fprg) — ตรวจราคาและคำนวณส่วนลด 10%
+| แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
+|---|---|---|
+| ตรวจสอบอายุ 1–120 ปี | [ดูผังงาน + Pseudocode](02-input-validation/age-validation.md) | [ดาวน์โหลด `.fprg`](02-input-validation/age-validation.fprg) |
+| ตรวจสอบราคาสินค้า 1–5,000 บาท | [ดูผังงาน + Pseudocode](02-input-validation/price-validation.md) | [ดาวน์โหลด `.fprg`](02-input-validation/price-validation.fprg) |
+| ตรวจสอบจำนวนสินค้า 1–100 ชิ้น | [ดูผังงาน + Pseudocode](02-input-validation/quantity-validation.md) | [ดาวน์โหลด `.fprg`](02-input-validation/quantity-validation.fprg) |
+| ตรวจสอบคะแนน 0–100 | [ดูผังงาน + Pseudocode](02-input-validation/score-validation.md) | [ดาวน์โหลด `.fprg`](02-input-validation/score-validation.fprg) |
+| ตรวจสอบคะแนนกลางภาค 0–40 | [ดูผังงาน + Pseudocode](02-input-validation/midterm-score-validation.md) | [ดาวน์โหลด `.fprg`](02-input-validation/midterm-score-validation.fprg) |
+| ตรวจสอบอุณหภูมิ -40 ถึง 60 °C | [ดูผังงาน + Pseudocode](02-input-validation/temperature-validation.md) | [ดาวน์โหลด `.fprg`](02-input-validation/temperature-validation.fprg) |
+| ตรวจสอบแบตเตอรี่ 0–100% | [ดูผังงาน + Pseudocode](02-input-validation/battery-validation.md) | [ดาวน์โหลด `.fprg`](02-input-validation/battery-validation.fprg) |
+| ตรวจชั่วโมงทำงานและคำนวณค่าจ้าง | [ดูผังงาน + Pseudocode](02-input-validation/work-hours-validation.md) | [ดาวน์โหลด `.fprg`](02-input-validation/work-hours-validation.fprg) |
+| ตรวจราคาและคำนวณส่วนลด 10% | [ดูผังงาน + Pseudocode](02-input-validation/discount-calculator.md) | [ดาวน์โหลด `.fprg`](02-input-validation/discount-calculator.fprg) |
 
 ### 3. Multiple and related inputs
 
-- [`price-quantity-total.fprg`](03-multiple-inputs/price-quantity-total.fprg) — ราคารวมจากราคาและจำนวนสินค้า
-- [`deposit-withdrawal-balance.fprg`](03-multiple-inputs/deposit-withdrawal-balance.fprg) — ตรวจยอดถอนและหายอดคงเหลือ
-- [`bmi-calculator.fprg`](03-multiple-inputs/bmi-calculator.fprg) — ตรวจน้ำหนักและส่วนสูงก่อนคำนวณ BMI
-- [`score-range-validation.fprg`](03-multiple-inputs/score-range-validation.fprg) — ตรวจคะแนนต่ำสุดและสูงสุดที่สัมพันธ์กัน
-- [`time-duration.fprg`](03-multiple-inputs/time-duration.fprg) — ตรวจเวลาเริ่ม–สิ้นสุดและหาระยะเวลา
-- [`three-part-score.fprg`](03-multiple-inputs/three-part-score.fprg) — รวมคะแนน 3 ส่วน
-- [`four-part-score.fprg`](03-multiple-inputs/four-part-score.fprg) — รวมคะแนน 4 ส่วน
+| แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
+|---|---|---|
+| คำนวณราคารวมจากราคาและจำนวนสินค้า | [ดูผังงาน + Pseudocode](03-multiple-inputs/price-quantity-total.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/price-quantity-total.fprg) |
+| ตรวจยอดถอนและคำนวณยอดคงเหลือ | [ดูผังงาน + Pseudocode](03-multiple-inputs/deposit-withdrawal-balance.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/deposit-withdrawal-balance.fprg) |
+| ตรวจน้ำหนัก–ส่วนสูงและคำนวณ BMI | [ดูผังงาน + Pseudocode](03-multiple-inputs/bmi-calculator.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/bmi-calculator.fprg) |
+| ตรวจคะแนนต่ำสุดและสูงสุดที่สัมพันธ์กัน | [ดูผังงาน + Pseudocode](03-multiple-inputs/score-range-validation.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/score-range-validation.fprg) |
+| ตรวจเวลาเริ่ม–สิ้นสุดและคำนวณระยะเวลา | [ดูผังงาน + Pseudocode](03-multiple-inputs/time-duration.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/time-duration.fprg) |
+| ตรวจและรวมคะแนน 3 ส่วน | [ดูผังงาน + Pseudocode](03-multiple-inputs/three-part-score.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/three-part-score.fprg) |
+| ตรวจและรวมคะแนน 4 ส่วน | [ดูผังงาน + Pseudocode](03-multiple-inputs/four-part-score.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/four-part-score.fprg) |
 
 ## แนวคิดการตรวจสอบข้อมูล
 
-```mermaid
-flowchart TD
-    A["รับข้อมูล"] --> B{"อยู่ในช่วงที่กำหนดหรือไม่?"}
-    B -- "ไม่" --> A
-    B -- "ใช่" --> C["คำนวณและแสดงผล"]
-```
-
-ตัวอย่างเงื่อนไขตรวจคะแนน:
-
 ```text
-Do
-    Output "กรอกคะแนน (0-100)"
-    Input score
-While score < 0 or score > 100
+ทำซ้ำ
+    แสดงข้อความขอข้อมูล
+    รับค่า
+ขณะที่ ข้อมูลอยู่นอกช่วงที่กำหนด
 ```
 
-## วิธีเปิดไฟล์
+แนวคิดสำคัญคือ **เงื่อนไขของลูปบอกว่า “ค่าไม่ถูกต้อง”** ดังนั้นถ้าเงื่อนไขเป็นจริง โปรแกรมจะย้อนกลับไปรับค่าใหม่ และเมื่อเงื่อนไขเป็นเท็จจึงออกจากลูปไปคำนวณต่อ
+
+## วิธีเปิดไฟล์ต้นฉบับ
 
 1. ติดตั้ง [Flowgorithm](http://www.flowgorithm.org/)
 2. ดาวน์โหลดหรือ Clone repository นี้
