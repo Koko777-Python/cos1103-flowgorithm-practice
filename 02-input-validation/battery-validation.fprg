@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3648;&#3611;&#3629;&#3619;&#3660;&#3648;&#3595;&#3655;&#3609;&#3605;&#3660;&#3649;&#3610;&#3605;&#3648;&#3605;&#3629;&#3619;&#3637;&#3656;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="battery" type="Integer" array="False" size=""/>
+            <do expression="battery&lt;0 or battery&gt;100">
+                <output expression="&quot;กรอกเปอร์เซ็นต์แบตเตอรี่ (0-100)&quot;" newline="True"/>
+                <input variable="battery"/>
+            </do>
+            <output expression="&quot;แบตเตอรี่เหลือ = &quot; &amp; battery &amp; &quot;%&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

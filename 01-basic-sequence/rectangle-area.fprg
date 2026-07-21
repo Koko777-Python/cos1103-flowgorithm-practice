@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX 00 Area"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="width, length, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter width: &quot;" newline="False"/>
+            <input variable="width"/>
+            <output expression="&quot;Enter length: &quot;" newline="False"/>
+            <input variable="length"/>
+            <assign variable="area" expression="width * length"/>
+            <output expression="&quot;Area of rectangle = &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

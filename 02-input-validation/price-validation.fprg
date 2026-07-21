@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3619;&#3633;&#3610;&#3629;&#3634;&#3618;&#3640;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price" type="Real" array="False" size=""/>
+            <do expression="price&lt;1 or price&gt;5000">
+                <output expression="&quot;กรอกราคาสินค้า (1-5000 บาท)&quot;" newline="True"/>
+                <input variable="price"/>
+            </do>
+            <output expression="&quot;ราคาสินค้า = &quot; &amp; price &amp; &quot; บาท&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

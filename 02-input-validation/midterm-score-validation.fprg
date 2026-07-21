@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3619;&#3633;&#3610;&#3588;&#3632;&#3649;&#3609;&#3609;&#3585;&#3621;&#3634;&#3591;&#3616;&#3634;&#3588;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="midterm" type="Integer" array="False" size=""/>
+            <do expression="midterm&lt;0 or midterm&gt;40">
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3585;&#3621;&#3634;&#3591;&#3616;&#3634;&#3588; (0-40)&quot;" newline="True"/>
+                <input variable="midterm"/>
+            </do>
+            <output expression="&quot;คะแนนกลางภาค = &quot; &amp; midterm &amp; &quot; คะแนน&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

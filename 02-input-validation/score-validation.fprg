@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Score Validation"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value="Validate a score in the range 0 to 100."/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="score" type="Real" array="False" size=""/>
+            <do expression="score&lt;0 or score&gt;100">
+                <output expression="&quot;กรอกคะแนน (0-100)&quot;" newline="True"/>
+                <input variable="score"/>
+            </do>
+            <output expression="&quot;คะแนน = &quot; &amp; score &amp; &quot; คะแนน&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

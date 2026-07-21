@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX &#3588;&#3632;&#3649;&#3609;&#3609;&#3626;&#3629;&#3610; 3 &#3623;&#3636;&#3594;&#3634; &#3627;&#3634;&#3619; 3"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mth1101, cos1103, ram1111, average" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter MTH1101 score: &quot;" newline="False"/>
+            <input variable="mth1101"/>
+            <output expression="&quot;Enter COS1103 score: &quot;" newline="False"/>
+            <input variable="cos1103"/>
+            <output expression="&quot;Enter RAM1111 score: &quot;" newline="False"/>
+            <input variable="ram1111"/>
+            <assign variable="average" expression="(mth1101 + cos1103 + ram1111) / 3"/>
+            <output expression="&quot;Average score = &quot; &amp; average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

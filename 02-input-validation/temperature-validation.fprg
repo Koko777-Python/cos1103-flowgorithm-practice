@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3629;&#3640;&#3603;&#3627;&#3616;&#3641;&#3617;&#3636;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="temperature" type="Real" array="False" size=""/>
+            <do expression="temperature&lt;-40 or temperature&gt;60">
+                <output expression="&quot;กรอกอุณหภูมิ (-40 ถึง 60 องศาเซลเซียส)&quot;" newline="True"/>
+                <input variable="temperature"/>
+            </do>
+            <output expression="&quot;อุณหภูมิ = &quot; &amp; temperature &amp; &quot; องศาเซลเซียส&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

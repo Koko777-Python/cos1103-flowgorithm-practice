@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3592;&#3635;&#3609;&#3623;&#3609;&#3626;&#3636;&#3609;&#3588;&#3657;&#3634;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quantity" type="Integer" array="False" size=""/>
+            <do expression="quantity&lt;1 or quantity&gt;100">
+                <output expression="&quot;กรอกจำนวนสินค้า (1-100 ชิ้น)&quot;" newline="True"/>
+                <input variable="quantity"/>
+            </do>
+            <output expression="&quot;จำนวนสินค้า = &quot; &amp; quantity &amp; &quot; ชิ้น&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="10 Percent Discount Calculator"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value="Validate a product price and calculate a 10 percent discount."/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price, discount, netprice" type="Real" array="False" size=""/>
+            <do expression="price&lt;1 or price&gt;5000">
+                <output expression="&quot;กรอกราคาสินค้า (1-5000 บาท)&quot;" newline="True"/>
+                <input variable="price"/>
+            </do>
+            <assign variable="discount" expression="price * 0.10"/>
+            <assign variable="netprice" expression="price - discount"/>
+            <output expression="&quot;ส่วนลด 10% = &quot; &amp; discount &amp; &quot; บาท&quot;" newline="True"/>
+            <output expression="&quot;ราคาหลังหักส่วนลด = &quot; &amp; netprice &amp; &quot; บาท&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

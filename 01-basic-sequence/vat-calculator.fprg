@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="VAT Calculator"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value="Calculate 7 percent VAT and the net total."/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price, vat, nettotal" type="Real" array="False" size=""/>
+            <output expression="&quot;กรอกราคาก่อน VAT: &quot;" newline="False"/>
+            <input variable="price"/>
+            <assign variable="vat" expression="price * 0.07"/>
+            <assign variable="nettotal" expression="price + vat"/>
+            <output expression="&quot;VAT 7% = &quot; &amp; vat &amp; &quot; บาท&quot;" newline="True"/>
+            <output expression="&quot;ยอดสุทธิ = &quot; &amp; nettotal &amp; &quot; บาท&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

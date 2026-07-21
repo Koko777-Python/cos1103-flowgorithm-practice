@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3626;&#3636;&#3609;&#3588;&#3657;&#3634;&#3649;&#3621;&#3632;&#3592;&#3635;&#3609;&#3623;&#3609;&#3594;&#3636;&#3657;&#3609;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price, total" type="Real" array="False" size=""/>
+            <declare name="quantity" type="Integer" array="False" size=""/>
+            <do expression="price&lt;10 or price&gt;5000">
+                <output expression="&quot;กรอกราคาสินค้า (10-5000 บาท)&quot;" newline="True"/>
+                <input variable="price"/>
+            </do>
+            <do expression="quantity&lt;1 or quantity&gt;50">
+                <output expression="&quot;กรอกจำนวนสินค้า (1-50 ชิ้น)&quot;" newline="True"/>
+                <input variable="quantity"/>
+            </do>
+            <assign variable="total" expression="price * quantity"/>
+            <output expression="&quot;ราคาสินค้า = &quot; &amp; price &amp; &quot; บาท&quot;" newline="True"/>
+            <output expression="&quot;&#3592;&#3635;&#3609;&#3623;&#3609;&#3626;&#3636;&#3609;&#3588;&#3657;&#3634; = &quot;&amp;quantity&amp;&quot;  &#3594;&#3636;&#3657;&#3609;&quot;" newline="True"/>
+            <output expression="&quot;&#3619;&#3634;&#3588;&#3634;&#3619;&#3623;&#3617; = &quot;&amp;total&amp;&quot;  &#3610;&#3634;&#3607;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

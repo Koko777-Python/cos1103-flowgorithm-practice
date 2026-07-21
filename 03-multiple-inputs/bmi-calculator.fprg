@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3609;&#3657;&#3635;&#3627;&#3609;&#3633;&#3585;&#3649;&#3621;&#3632;&#3626;&#3656;&#3623;&#3609;&#3626;&#3641;&#3591;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="weight, height, bmi" type="Real" array="False" size=""/>
+            <do expression="weight&lt;20 or weight&gt;200">
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3609;&#3657;&#3635;&#3627;&#3609;&#3633;&#3585; (20-200 &#3585;&#3636;&#3650;&#3621;&#3585;&#3619;&#3633;&#3617;)&quot;" newline="True"/>
+                <input variable="weight"/>
+            </do>
+            <do expression="height&lt;1.00 or height&gt;2.50">
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3626;&#3656;&#3623;&#3609;&#3626;&#3641;&#3591; (1.00 - 2.50 &#3648;&#3617;&#3605;&#3619;)&quot;" newline="True"/>
+                <input variable="height"/>
+            </do>
+            <assign variable="bmi" expression="weight / (height ^ 2)"/>
+            <output expression="&quot;น้ำหนัก = &quot; &amp; weight &amp; &quot; กิโลกรัม&quot;" newline="True"/>
+            <output expression="&quot;ส่วนสูง = &quot; &amp; height &amp; &quot; เมตร&quot;" newline="True"/>
+            <output expression="&quot;BMI = &quot; &amp; bmi &amp; &quot; กิโลกรัมต่อตารางเมตร&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

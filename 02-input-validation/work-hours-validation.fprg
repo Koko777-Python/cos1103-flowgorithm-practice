@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3592;&#3635;&#3609;&#3623;&#3609;&#3594;&#3633;&#3656;&#3623;&#3650;&#3617;&#3591;&#3607;&#3635;&#3591;&#3634;&#3609;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hours, wage" type="Real" array="False" size=""/>
+            <do expression="hours&lt;1 or hours&gt;12">
+                <output expression="&quot;กรอกชั่วโมงการทำงาน (1-12 ชั่วโมง)&quot;" newline="True"/>
+                <input variable="hours"/>
+            </do>
+            <assign variable="wage" expression="hours * 80"/>
+            <output expression="&quot;&#3594;&#3633;&#3656;&#3623;&#3650;&#3617;&#3591;&#3585;&#3634;&#3619;&#3607;&#3635;&#3591;&#3634;&#3609; = &quot;&amp;hours&amp;&quot;  &#3594;&#3633;&#3656;&#3623;&#3650;&#3617;&#3591;&quot;" newline="True"/>
+            <output expression="&quot;&#3588;&#3656;&#3634;&#3592;&#3657;&#3634;&#3591; = &quot;&amp;wage&amp;&quot;  &#3610;&#3634;&#3607;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

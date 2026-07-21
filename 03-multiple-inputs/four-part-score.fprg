@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX loop &#3588;&#3632;&#3649;&#3609;&#3609; 4 &#3626;&#3656;&#3623;&#3609;"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="quiz, midterm, finalscore, attendance, totalscore" type="Real" array="False" size=""/>
+            <do expression="quiz&lt;0 or quiz&gt;10">
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3588;&#3623;&#3636;&#3626; (0-10)&quot;" newline="True"/>
+                <input variable="quiz"/>
+            </do>
+            <do expression="midterm&lt;0 or midterm&gt;30">
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3585;&#3621;&#3634;&#3591;&#3616;&#3634;&#3588; (0-30)&quot;" newline="True"/>
+                <input variable="midterm"/>
+            </do>
+            <do expression="finalscore&lt;0 or finalscore&gt;40">
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3611;&#3621;&#3634;&#3618;&#3616;&#3634;&#3588; (0-40)&quot;" newline="True"/>
+                <input variable="finalscore"/>
+            </do>
+            <do expression="attendance&lt;0 or attendance&gt;20">
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3588;&#3632;&#3649;&#3609;&#3609;&#3648;&#3586;&#3657;&#3634;&#3648;&#3619;&#3637;&#3618;&#3609; (0-20)&quot;" newline="True"/>
+                <input variable="attendance"/>
+            </do>
+            <assign variable="totalscore" expression="quiz + midterm + finalscore + attendance"/>
+            <output expression="&quot;&#3588;&#3632;&#3649;&#3609;&#3609;&#3588;&#3623;&#3636;&#3626; = &quot;&amp;quiz&amp;&quot;  &#3588;&#3632;&#3649;&#3609;&#3609;&quot;" newline="True"/>
+            <output expression="&quot;&#3588;&#3632;&#3649;&#3609;&#3609;&#3585;&#3621;&#3634;&#3591;&#3616;&#3634;&#3588; = &quot;&amp;midterm&amp;&quot;  &#3588;&#3632;&#3649;&#3609;&#3609;&quot;" newline="True"/>
+            <output expression="&quot;&#3588;&#3632;&#3649;&#3609;&#3609;&#3611;&#3621;&#3634;&#3618;&#3616;&#3634;&#3588; = &quot;&amp;finalscore&amp;&quot;  &#3588;&#3632;&#3649;&#3609;&#3609;&quot;" newline="True"/>
+            <output expression="&quot;คะแนนเข้าเรียน = &quot; &amp; attendance &amp; &quot; คะแนน&quot;" newline="True"/>
+            <output expression="&quot;&#3588;&#3632;&#3649;&#3609;&#3609;&#3619;&#3623;&#3617; = &quot;&amp;totalscore&amp;&quot;  &#3588;&#3632;&#3649;&#3609;&#3609;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

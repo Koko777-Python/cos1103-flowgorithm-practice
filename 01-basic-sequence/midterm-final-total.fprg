@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EX &#3588;&#3632;&#3649;&#3609;&#3609;&#3626;&#3629;&#3610; mid+final"/>
+        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="about" value=""/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="midscore, finalscore, totalscore" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter midterm score: &quot;" newline="False"/>
+            <input variable="midscore"/>
+            <output expression="&quot;Enter final score: &quot;" newline="False"/>
+            <input variable="finalscore"/>
+            <assign variable="totalscore" expression="midscore + finalscore"/>
+            <output expression="&quot;Total score = &quot; &amp; totalscore" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
