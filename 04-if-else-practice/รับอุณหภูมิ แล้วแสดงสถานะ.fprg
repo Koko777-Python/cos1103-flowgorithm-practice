@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#3619;&#3633;&#3610;&#3629;&#3640;&#3603;&#3627;&#3616;&#3641;&#3617;&#3636; &#3649;&#3621;&#3657;&#3623;&#3649;&#3626;&#3604;&#3591;&#3626;&#3606;&#3634;&#3609;&#3632;"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-23 05:53:00 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yMzswMjo1Njo0NiBQTTszMzg5"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yMzswNTo1MzowMCBQTTsyOzM0ODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="temperature" type="Real" array="False" size=""/>
+            <output expression="&quot;What is the Temperatuer ?&quot;" newline="True"/>
+            <input variable="temperature"/>
+            <output expression="&quot;Temperature = &quot;&amp;temperature&amp;&quot;  c&quot;" newline="True"/>
+            <if expression="temperature&gt;=35">
+                <then>
+                    <output expression="&quot;Temperature Hot&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="temperature&gt;=25">
+                        <then>
+                            <output expression="&quot;Temperature Warm&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Temperature Cool&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

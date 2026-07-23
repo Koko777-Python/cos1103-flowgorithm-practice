@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#3605;&#3619;&#3623;&#3592;&#3588;&#3632;&#3649;&#3609;&#3609;Invalid-Pass-Fail"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-23 06:21:31 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yMzswNjowOToxMyBQTTszMzg1"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yMzswNjoyMTozMSBQTTsxOzM0ODc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="score" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Score&quot;" newline="True"/>
+            <input variable="score"/>
+            <if expression="score&gt;=0 and score&lt;=100">
+                <then>
+                    <output expression="&quot;Score = &quot;&amp;score&amp;&quot;  Points&quot;" newline="True"/>
+                    <if expression="score&gt;=50">
+                        <then>
+                            <output expression="&quot;Pass&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Fail&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Invalid Score&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

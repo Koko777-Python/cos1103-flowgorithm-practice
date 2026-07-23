@@ -2,7 +2,7 @@
 
 แบบฝึกหัดส่วนตัวสำหรับฝึกออกแบบอัลกอริทึมด้วย **Flowgorithm และ Pseudocode** ตั้งแต่การทำงานตามลำดับ การตรวจสอบข้อมูลด้วย `Do...While` ไปจนถึงโจทย์ที่มีข้อมูลหลายค่าซึ่งสัมพันธ์กัน
 
-> A first-year computer science practice repository containing 20 Flowgorithm programs with readable pseudocode and flowchart previews.
+> A first-year computer science practice repository containing 24 Flowgorithm programs with readable pseudocode and flowchart previews.
 
 ## ดูงานบน GitHub อย่างไร
 
@@ -11,12 +11,21 @@
 | ไฟล์ | ใช้ทำอะไร |
 |---|---|
 | `.md` | อ่านโจทย์ ดูภาพผังงาน และอ่าน Pseudocode บน GitHub |
-| `.png` | ภาพผังงานที่ถอดจากตรรกะในไฟล์ต้นฉบับ |
+| `.png` | ภาพผังงานหรือภาพหน้าจอจริงจากโปรแกรม Flowgorithm |
 | `.fprg` | ไฟล์ต้นฉบับสำหรับดาวน์โหลดไปเปิดด้วย Flowgorithm |
 
 > **สำคัญ:** หากกดไฟล์ `.fprg` บน GitHub จะเห็นข้อมูล XML เพราะ GitHub แสดงโครงสร้างภายในของไฟล์ ไม่ได้หมายความว่าเป็น Python หรือไฟล์เสีย ให้กดลิงก์ **ดูผังงาน + Pseudocode** ในตารางด้านล่างแทน
 
-![ตัวอย่างผังงานตรวจสอบคะแนน](02-input-validation/images/score-validation.png)
+## งานล่าสุด — 23 กรกฎาคม 2569
+
+แบบฝึก `If...Else` จำนวน 4 ข้อ โดยใช้ภาพหน้าจอผังงานจริงจาก Flowgorithm และจับคู่ภาพกับไฟล์ต้นฉบับตามชื่อเดียวกัน
+
+| แบบฝึกหัด | เปิดดูผังงานและ Pseudocode |
+|---|---|
+| รับจำนวนเต็ม | [เปิดงาน](<04-if-else-practice/รับจำนวนเต็ม.md>) |
+| รับยอดซื้อ ถ้ายอดซื้ออย่างน้อย 1,000 บาท ให้ส่วนลด 10% | [เปิดงาน](<04-if-else-practice/รับยอดซื้อ ถ้ายอดซื้ออย่างน้อย 1,000 บาท ให้ส่วนลด 10% - Final.md>) |
+| รับอุณหภูมิ แล้วแสดงสถานะ | [เปิดงาน](<04-if-else-practice/รับอุณหภูมิ แล้วแสดงสถานะ.md>) |
+| ตรวจคะแนน Invalid–Pass–Fail | [เปิดงาน](<04-if-else-practice/ตรวจคะแนนInvalid-Pass-Fail.md>) |
 
 ## จุดประสงค์
 
@@ -34,6 +43,7 @@
 | `01-basic-sequence` | 4 | รับข้อมูล คำนวณ และแสดงผล | พื้นที่สี่เหลี่ยม, VAT 7% |
 | `02-input-validation` | 9 | ตรวจช่วงข้อมูลก่อนนำไปใช้ | อายุ, คะแนน, ราคา, ส่วนลด |
 | `03-multiple-inputs` | 7 | ตรวจข้อมูลหลายค่าที่สัมพันธ์กัน | BMI, ยอดถอน, ช่วงเวลา, คะแนนรวม |
+| `04-if-else-practice` | 4 | เลือกทำงานตามเงื่อนไข | จำนวนเต็ม, ส่วนลด, อุณหภูมิ, ผลสอบ |
 
 ## แบบฝึกหัดทั้งหมด
 
@@ -71,6 +81,15 @@
 | ตรวจเวลาเริ่ม–สิ้นสุดและคำนวณระยะเวลา | [ดูผังงาน + Pseudocode](03-multiple-inputs/time-duration.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/time-duration.fprg) |
 | ตรวจและรวมคะแนน 3 ส่วน | [ดูผังงาน + Pseudocode](03-multiple-inputs/three-part-score.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/three-part-score.fprg) |
 | ตรวจและรวมคะแนน 4 ส่วน | [ดูผังงาน + Pseudocode](03-multiple-inputs/four-part-score.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/four-part-score.fprg) |
+
+### 4. If–Else practice — 23 กรกฎาคม 2569
+
+| แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
+|---|---|---|
+| รับจำนวนเต็ม | [ดูภาพจริง + Pseudocode](<04-if-else-practice/รับจำนวนเต็ม.md>) | [ดาวน์โหลด `.fprg`](<04-if-else-practice/รับจำนวนเต็ม.fprg>) |
+| รับยอดซื้อ ถ้ายอดซื้ออย่างน้อย 1,000 บาท ให้ส่วนลด 10% | [ดูภาพจริง + Pseudocode](<04-if-else-practice/รับยอดซื้อ ถ้ายอดซื้ออย่างน้อย 1,000 บาท ให้ส่วนลด 10% - Final.md>) | [ดาวน์โหลด `.fprg`](<04-if-else-practice/รับยอดซื้อ ถ้ายอดซื้ออย่างน้อย 1,000 บาท ให้ส่วนลด 10% - Final.fprg>) |
+| รับอุณหภูมิ แล้วแสดงสถานะ | [ดูภาพจริง + Pseudocode](<04-if-else-practice/รับอุณหภูมิ แล้วแสดงสถานะ.md>) | [ดาวน์โหลด `.fprg`](<04-if-else-practice/รับอุณหภูมิ แล้วแสดงสถานะ.fprg>) |
+| ตรวจคะแนน Invalid–Pass–Fail | [ดูภาพจริง + Pseudocode](<04-if-else-practice/ตรวจคะแนนInvalid-Pass-Fail.md>) | [ดาวน์โหลด `.fprg`](<04-if-else-practice/ตรวจคะแนนInvalid-Pass-Fail.fprg>) |
 
 ## แนวคิดการตรวจสอบข้อมูล
 

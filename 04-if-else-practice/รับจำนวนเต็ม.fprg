@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#3619;&#3633;&#3610;&#3592;&#3635;&#3609;&#3623;&#3609;&#3648;&#3605;&#3655;&#3617;"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-23 02:11:06 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yMzswMTo0NzowMyBQTTszMzgx"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yMzswMjoxMTowNiBQTTsxOzM0ODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number&quot;" newline="True"/>
+            <input variable="number"/>
+            <if expression="number&gt;0">
+                <then>
+                    <output expression="&quot;Positive&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Zero or Negative&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
