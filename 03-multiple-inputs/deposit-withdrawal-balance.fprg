@@ -2,22 +2,25 @@
 <flowgorithm fileversion="4.2">
     <attributes>
         <attribute name="name" value="EX loop &#3618;&#3629;&#3604;&#3648;&#3591;&#3636;&#3609;&#3613;&#3634;&#3585;&#3649;&#3621;&#3632;&#3618;&#3629;&#3604;&#3606;&#3629;&#3609;"/>
-        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
         <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-19 02:12:57 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0xOTswMjowNTowMSBQTTszMzc5"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0xOTswMjoxMjo1NyBQTTsxOzM0OTY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="deposit, withdraw, balance" type="Real" array="False" size=""/>
             <do expression="deposit&lt;100 or deposit&gt;100000">
-                <output expression="&quot;กรอกยอดเงินฝาก (100-100000 บาท)&quot;" newline="True"/>
+                <output expression="&quot;&#3619;&#3633;&#3610;&#3618;&#3629;&#3604;&#3648;&#3591;&#3636;&#3609;&#3613;&#3634;&#3585; (100-100000)&quot;" newline="True"/>
                 <input variable="deposit"/>
             </do>
             <do expression="withdraw&lt;1 or withdraw&gt;deposit">
-                <output expression="&quot;กรอกยอดถอน (อย่างน้อย 1 บาทและไม่เกินยอดฝาก)&quot;" newline="True"/>
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3648;&#3591;&#3636;&#3609;&#3607;&#3637;&#3656;&#3592;&#3632;&#3606;&#3629;&#3609; (1-100000)&quot;" newline="True"/>
                 <input variable="withdraw"/>
             </do>
-            <assign variable="balance" expression="deposit - withdraw"/>
+            <assign variable="balance" expression="deposit-withdraw"/>
             <output expression="&quot;&#3618;&#3629;&#3604;&#3648;&#3591;&#3636;&#3609;&#3613;&#3634;&#3585; = &quot;&amp;deposit&amp;&quot;  &#3610;&#3634;&#3607;&quot;" newline="True"/>
             <output expression="&quot;&#3618;&#3629;&#3604;&#3606;&#3629;&#3609;&#3648;&#3591;&#3636;&#3609; = &quot;&amp;withdraw&amp;&quot;  &#3610;&#3634;&#3607;&quot;" newline="True"/>
             <output expression="&quot;&#3618;&#3629;&#3604;&#3648;&#3591;&#3636;&#3609;&#3588;&#3591;&#3648;&#3627;&#3621;&#3639;&#3629; = &quot;&amp;balance&amp;&quot;  &#3610;&#3634;&#3607;&quot;" newline="True"/>

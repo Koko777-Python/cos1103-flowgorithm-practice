@@ -1,20 +1,22 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="VAT Calculator"/>
-        <attribute name="authors" value="Koko777-Python"/>
-        <attribute name="about" value="Calculate 7 percent VAT and the net total."/>
+        <attribute name="name" value="Ex vat 7%"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-07 06:27:15 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0wNzswNjoyMToxMSBQTTszMzc5"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0wNzswNjoyNzoxNSBQTTsxOzM0OTc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="price, vat, nettotal" type="Real" array="False" size=""/>
-            <output expression="&quot;กรอกราคาก่อน VAT: &quot;" newline="False"/>
+            <declare name="price, vat, finalprice" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter Price&quot;" newline="True"/>
             <input variable="price"/>
-            <assign variable="vat" expression="price * 0.07"/>
-            <assign variable="nettotal" expression="price + vat"/>
-            <output expression="&quot;VAT 7% = &quot; &amp; vat &amp; &quot; บาท&quot;" newline="True"/>
-            <output expression="&quot;ยอดสุทธิ = &quot; &amp; nettotal &amp; &quot; บาท&quot;" newline="True"/>
+            <assign variable="vat" expression="price * ( 7/100 )"/>
+            <assign variable="finalprice" expression="vat + price"/>
+            <output expression="&quot;Finalprice = &quot;&amp;Finalprice" newline="False"/>
         </body>
     </function>
 </flowgorithm>

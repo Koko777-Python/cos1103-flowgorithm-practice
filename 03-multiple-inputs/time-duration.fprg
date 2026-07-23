@@ -2,8 +2,11 @@
 <flowgorithm fileversion="4.2">
     <attributes>
         <attribute name="name" value="EX loop &#3648;&#3623;&#3621;&#3634;&#3648;&#3619;&#3636;&#3656;&#3617;&#3649;&#3621;&#3632;&#3648;&#3623;&#3621;&#3634;&#3626;&#3636;&#3657;&#3609;&#3626;&#3640;&#3604;"/>
-        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
         <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-19 01:16:00 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0xOTsxMjoxMzoxOCBQTTszMzg3"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0xOTswMToxNjowMCBQTTsxOzM0ODc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -13,11 +16,11 @@
                 <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3594;&#3633;&#3656;&#3623;&#3650;&#3617;&#3591;&#3648;&#3619;&#3636;&#3656;&#3617;&#3605;&#3657;&#3609; (0-22 &#3650;&#3617;&#3591;)&quot;" newline="True"/>
                 <input variable="starthour"/>
             </do>
-            <do expression="endhour&lt;=starthour or endhour&gt;23">
+            <do expression="endhour&lt;= starthour or endhour&gt;23">
                 <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3648;&#3623;&#3621;&#3634;&#3648;&#3621;&#3636;&#3585; &#3650;&#3604;&#3618;&#3605;&#3657;&#3629;&#3591;&#3617;&#3634;&#3585;&#3585;&#3623;&#3656;&#3634;&#3648;&#3623;&#3621;&#3634;&#3648;&#3619;&#3636;&#3656;&#3617;&#3649;&#3621;&#3632;&#3652;&#3617;&#3656;&#3648;&#3585;&#3636;&#3609; 23&quot;" newline="True"/>
                 <input variable="endhour"/>
             </do>
-            <assign variable="duration" expression="endhour - starthour"/>
+            <assign variable="duration" expression="endhour-starthour"/>
             <output expression="&quot;&#3648;&#3619;&#3636;&#3656;&#3617;&#3605;&#3657;&#3609; = &quot;&amp;starthour&amp;&quot;  &#3650;&#3617;&#3591;&quot;" newline="True"/>
             <output expression="&quot;&#3626;&#3636;&#3657;&#3609;&#3626;&#3640;&#3604; = &quot; &amp;endhour&amp; &quot;  &#3650;&#3617;&#3591;&quot;" newline="True"/>
             <output expression="&quot;&#3619;&#3632;&#3618;&#3632;&#3648;&#3623;&#3621;&#3634; = &quot;&amp;duration&amp;&quot;  &#3594;&#3633;&#3656;&#3623;&#3650;&#3617;&#3591;&quot;" newline="True"/>

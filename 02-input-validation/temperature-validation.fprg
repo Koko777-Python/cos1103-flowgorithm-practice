@@ -2,18 +2,21 @@
 <flowgorithm fileversion="4.2">
     <attributes>
         <attribute name="name" value="EX loop &#3629;&#3640;&#3603;&#3627;&#3616;&#3641;&#3617;&#3636;"/>
-        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
         <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-19 09:04:31 AM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0xOTswODo1MzoyOSBBTTszMzgz"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0xOTswOTowNDozMSBBTTsxOzM0ODE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="temperature" type="Real" array="False" size=""/>
-            <do expression="temperature&lt;-40 or temperature&gt;60">
-                <output expression="&quot;กรอกอุณหภูมิ (-40 ถึง 60 องศาเซลเซียส)&quot;" newline="True"/>
+            <declare name="temperature" type="Integer" array="False" size=""/>
+            <do expression="temperature&lt; -40 or temperature&gt; 60">
+                <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3629;&#3640;&#3603;&#3627;&#3616;&#3641;&#3617;&#3636; (-40 - 60)&quot;" newline="True"/>
                 <input variable="temperature"/>
             </do>
-            <output expression="&quot;อุณหภูมิ = &quot; &amp; temperature &amp; &quot; องศาเซลเซียส&quot;" newline="True"/>
+            <output expression="&quot;&#3629;&#3640;&#3603;&#3627;&#3616;&#3641;&#3617;&#3636; = &quot;&amp;temperature&amp;&quot;  &#3629;&#3591;&#3624;&#3634;&quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>

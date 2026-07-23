@@ -2,8 +2,11 @@
 <flowgorithm fileversion="4.2">
     <attributes>
         <attribute name="name" value="EX loop &#3609;&#3657;&#3635;&#3627;&#3609;&#3633;&#3585;&#3649;&#3621;&#3632;&#3626;&#3656;&#3623;&#3609;&#3626;&#3641;&#3591;"/>
-        <attribute name="authors" value="Koko777-Python"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
         <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-19 12:10:12 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0xOTsxMTo1Mzo1MiBBTTszMzcz"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0xOTsxMjoxMDoxMiBQTTsxOzM0ODY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -17,10 +20,10 @@
                 <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3626;&#3656;&#3623;&#3609;&#3626;&#3641;&#3591; (1.00 - 2.50 &#3648;&#3617;&#3605;&#3619;)&quot;" newline="True"/>
                 <input variable="height"/>
             </do>
-            <assign variable="bmi" expression="weight / (height ^ 2)"/>
-            <output expression="&quot;น้ำหนัก = &quot; &amp; weight &amp; &quot; กิโลกรัม&quot;" newline="True"/>
-            <output expression="&quot;ส่วนสูง = &quot; &amp; height &amp; &quot; เมตร&quot;" newline="True"/>
-            <output expression="&quot;BMI = &quot; &amp; bmi &amp; &quot; กิโลกรัมต่อตารางเมตร&quot;" newline="True"/>
+            <assign variable="bmi" expression="weight/height^2"/>
+            <output expression="&quot;&#3609;&#3657;&#3635;&#3627;&#3609;&#3633;&#3585; = &quot;&amp;weight&amp;&quot;  &#3585;&#3636;&#3650;&#3621;&#3585;&#3619;&#3633;&#3617;&quot;" newline="True"/>
+            <output expression="&quot;&#3626;&#3656;&#3623;&#3609;&#3626;&#3641;&#3591; = &quot;&amp;height&amp;&quot;  &#3648;&#3617;&#3605;&#3619;&quot;" newline="True"/>
+            <output expression="&quot;bmi = &quot;&amp;bmi&amp;&quot;  &#3585;&#3636;&#3650;&#3621;&#3585;&#3619;&#3633;&#3617;&#3605;&#3656;&#3629;&#3605;&#3634;&#3619;&#3634;&#3591;&#3648;&#3617;&#3605;&#3619;&quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>
