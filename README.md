@@ -16,7 +16,7 @@
 
 > **สำคัญ:** หากกดไฟล์ `.fprg` บน GitHub จะเห็นข้อมูล XML เพราะ GitHub แสดงโครงสร้างภายในของไฟล์ ไม่ได้หมายความว่าเป็น Python หรือไฟล์เสีย ให้กดลิงก์ **ดูผังงาน + Pseudocode** ในตารางด้านล่างแทน
 
-## งานล่าสุด — 23 กรกฎาคม 2569
+## Practice If–Else 07/23/2026
 
 แบบฝึก `If...Else` จำนวน 4 ข้อ โดยใช้ภาพหน้าจอผังงานจริงจาก Flowgorithm และจับคู่ภาพกับไฟล์ต้นฉบับตามชื่อเดียวกัน
 
@@ -82,7 +82,7 @@
 | ตรวจและรวมคะแนน 3 ส่วน | [ดูผังงาน + Pseudocode](03-multiple-inputs/three-part-score.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/three-part-score.fprg) |
 | ตรวจและรวมคะแนน 4 ส่วน | [ดูผังงาน + Pseudocode](03-multiple-inputs/four-part-score.md) | [ดาวน์โหลด `.fprg`](03-multiple-inputs/four-part-score.fprg) |
 
-### 4. If–Else practice — 23 กรกฎาคม 2569
+### 4. Practice If–Else 07/23/2026
 
 | แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
 |---|---|---|
