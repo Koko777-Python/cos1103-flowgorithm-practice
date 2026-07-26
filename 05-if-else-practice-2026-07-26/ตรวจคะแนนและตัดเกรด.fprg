@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#3605;&#3619;&#3623;&#3592;&#3588;&#3632;&#3649;&#3609;&#3609;&#3649;&#3621;&#3632;&#3605;&#3633;&#3604;&#3648;&#3585;&#3619;&#3604;"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-26 08:48:09 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yNjswODoyODo1MiBQTTszMzk0"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yNjswODo0ODowOSBQTTsxOzM1MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Score" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Score&quot;" newline="True"/>
+            <input variable="score"/>
+            <if expression="score&gt;=0 and score&lt;=100">
+                <then>
+                    <if expression="score&gt;=80 and score&lt;=100">
+                        <then>
+                            <output expression="&quot;A&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="score&gt;=70 and score&lt;=79">
+                                <then>
+                                    <output expression="&quot;B&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="score&gt;=60 and score&lt;=69">
+                                        <then>
+                                            <output expression="&quot;C&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="score&gt;=50 and score&lt;=59 or score&gt;50">
+                                                <then>
+                                                    <output expression="&quot;D&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;F&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Invalid score&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

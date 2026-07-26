@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#3588;&#3635;&#3609;&#3623;&#3603;&#3626;&#3656;&#3623;&#3609;&#3621;&#3604;&#3605;&#3634;&#3617;&#3618;&#3629;&#3604;&#3595;&#3639;&#3657;&#3629;"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-26 06:37:44 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yNjswNjoxNzo0OCBQTTszMzk1"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yNjswNjozNzo0NCBQTTsxOzM1MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Purchare, Discount, NetPrice" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the Purchare amount&quot;" newline="True"/>
+            <input variable="Purchare"/>
+            <if expression="Purchare&gt;=5000">
+                <then>
+                    <assign variable="Discount" expression="Purchare*15/100"/>
+                    <assign variable="NetPrice" expression="Purchare-Discount"/>
+                </then>
+                <else>
+                    <if expression="Purchare&lt;5000 and Purchare&gt;=1000">
+                        <then>
+                            <assign variable="Discount" expression="Purchare*10/100"/>
+                            <assign variable="NetPrice" expression="Purchare-Discount"/>
+                        </then>
+                        <else>
+                            <assign variable="Discount" expression="0"/>
+                            <assign variable="NetPrice" expression="Purchare"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Purchare = &quot;&amp;Purchare&amp;&quot;  Baht&quot;" newline="True"/>
+            <output expression="&quot;Discount = &quot;&amp;Discount&amp;&quot;  Baht&quot;" newline="True"/>
+            <output expression="&quot;NetPrice = &quot;&amp;NetPrice&amp;&quot;  Baht&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

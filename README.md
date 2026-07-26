@@ -2,7 +2,7 @@
 
 แบบฝึกหัดส่วนตัวสำหรับฝึกออกแบบอัลกอริทึมด้วย **Flowgorithm และ Pseudocode** โดยยึดไฟล์ต้นฉบับและภาพหน้าจอจริงจากโปรแกรมเป็นหลัก
 
-> A first-year computer science practice repository containing 14 Flowgorithm programs with readable pseudocode and real Flowgorithm screenshots.
+> A first-year computer science practice repository containing 17 Flowgorithm programs with readable pseudocode and real Flowgorithm screenshots.
 
 ## ไฟล์แต่ละแบบ
 
@@ -51,6 +51,16 @@
 | รับยอดซื้อ ถ้ายอดซื้ออย่างน้อย 1,000 บาท ให้ส่วนลด 10% | [ดูภาพจริง + Pseudocode](<04-if-else-practice/รับยอดซื้อ ถ้ายอดซื้ออย่างน้อย 1,000 บาท ให้ส่วนลด 10% - Final.md>) | [ดาวน์โหลด `.fprg`](<04-if-else-practice/รับยอดซื้อ ถ้ายอดซื้ออย่างน้อย 1,000 บาท ให้ส่วนลด 10% - Final.fprg>) |
 | รับอุณหภูมิ แล้วแสดงสถานะ | [ดูภาพจริง + Pseudocode](<04-if-else-practice/รับอุณหภูมิ แล้วแสดงสถานะ.md>) | [ดาวน์โหลด `.fprg`](<04-if-else-practice/รับอุณหภูมิ แล้วแสดงสถานะ.fprg>) |
 | ตรวจคะแนน Invalid–Pass–Fail | [ดูภาพจริง + Pseudocode](<04-if-else-practice/ตรวจคะแนนInvalid-Pass-Fail.md>) | [ดาวน์โหลด `.fprg`](<04-if-else-practice/ตรวจคะแนนInvalid-Pass-Fail.fprg>) |
+
+## Practice If–Else 07/26/2026
+
+แบบฝึก `If...Else` จำนวน 3 ข้อจากวันที่ 26 กรกฎาคม 2026 โดยเก็บไฟล์ `.fprg` และภาพหน้าจอตามต้นฉบับไว้ก่อน ยังไม่ได้แก้ไขจุดผิด
+
+| แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
+|---|---|---|
+| คำนวณส่วนลดตามยอดซื้อ | [ดูภาพจริง + Pseudocode](<05-if-else-practice-2026-07-26/คำนวณส่วนลดตามยอดซื้อ.md>) | [ดาวน์โหลด `.fprg`](<05-if-else-practice-2026-07-26/คำนวณส่วนลดตามยอดซื้อ.fprg>) |
+| ตรวจเลขคู่หรือเลขคี่ พร้อมตรวจเลขบวก | [ดูภาพจริง + Pseudocode](<05-if-else-practice-2026-07-26/ตรวจเลขคู่หรือเลขคี่ พร้อมตรวจเลขบวก.md>) | [ดาวน์โหลด `.fprg`](<05-if-else-practice-2026-07-26/ตรวจเลขคู่หรือเลขคี่ พร้อมตรวจเลขบวก.fprg>) |
+| ตรวจคะแนนและตัดเกรด | [ดูภาพจริง + Pseudocode](<05-if-else-practice-2026-07-26/ตรวจคะแนนและตัดเกรด.md>) | [ดาวน์โหลด `.fprg`](<05-if-else-practice-2026-07-26/ตรวจคะแนนและตัดเกรด.fprg>) |
 
 ## แนวคิดที่ฝึก
 
