@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#3588;&#3656;&#3634;&#3648;&#3586;&#3657;&#3634;&#3626;&#3623;&#3609;&#3626;&#3609;&#3640;&#3585;"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-27 10:26:10 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yNzsxMDowMzoyOSBQTTszMzg1"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yNzsxMDoyNjoxMCBQTTsxOzM0ODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age, height, ticketprice" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter Age&quot;" newline="True"/>
+            <input variable="age"/>
+            <output expression="&quot;Enter Height&quot;" newline="True"/>
+            <input variable="height"/>
+            <if expression="age&gt;=0 and age&lt;5">
+                <then>
+                    <assign variable="ticketprice" expression="0"/>
+                </then>
+                <else>
+                    <if expression="age&gt;=5 and age&lt;=12">
+                        <then>
+                            <if expression="height&gt;=0 and height&lt;120">
+                                <then>
+                                    <assign variable="ticketprice" expression="100"/>
+                                </then>
+                                <else>
+                                    <assign variable="ticketprice" expression="150"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <assign variable="ticketprice" expression="250"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Ticket Price = &quot;&amp;ticketprice&amp;&quot;  Baht&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

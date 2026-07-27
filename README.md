@@ -2,7 +2,7 @@
 
 แบบฝึกหัดส่วนตัวสำหรับฝึกออกแบบอัลกอริทึมด้วย **Flowgorithm และ Pseudocode** โดยยึดไฟล์ต้นฉบับและภาพหน้าจอจริงจากโปรแกรมเป็นหลัก
 
-> A first-year computer science practice repository containing 17 Flowgorithm programs with readable pseudocode and real Flowgorithm screenshots.
+> A first-year computer science practice repository containing 18 Flowgorithm programs with readable pseudocode and real Flowgorithm screenshots.
 
 ## ไฟล์แต่ละแบบ
 
@@ -61,6 +61,14 @@
 | คำนวณส่วนลดตามยอดซื้อ | [ดูภาพจริง + Pseudocode](<05-if-else-practice-2026-07-26/คำนวณส่วนลดตามยอดซื้อ.md>) | [ดาวน์โหลด `.fprg`](<05-if-else-practice-2026-07-26/คำนวณส่วนลดตามยอดซื้อ.fprg>) |
 | ตรวจเลขคู่หรือเลขคี่ พร้อมตรวจเลขบวก | [ดูภาพจริง + Pseudocode](<05-if-else-practice-2026-07-26/ตรวจเลขคู่หรือเลขคี่ พร้อมตรวจเลขบวก.md>) | [ดาวน์โหลด `.fprg`](<05-if-else-practice-2026-07-26/ตรวจเลขคู่หรือเลขคี่ พร้อมตรวจเลขบวก.fprg>) |
 | ตรวจคะแนนและตัดเกรด | [ดูภาพจริง + Pseudocode](<05-if-else-practice-2026-07-26/ตรวจคะแนนและตัดเกรด.md>) | [ดาวน์โหลด `.fprg`](<05-if-else-practice-2026-07-26/ตรวจคะแนนและตัดเกรด.fprg>) |
+
+## Practice If–Else 07/27/2026
+
+แบบฝึก `If...Else` จำนวน 1 ข้อจากวันที่ 27 กรกฎาคม 2026 โดยเก็บไฟล์ `.fprg` และภาพหน้าจอตามต้นฉบับไว้ครบ
+
+| แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
+|---|---|---|
+| ค่าเข้าสวนสนุก | [ดูภาพจริง + Pseudocode](<06-if-else-practice-2026-07-27/ค่าเข้าสวนสนุก.md>) | [ดาวน์โหลด `.fprg`](<06-if-else-practice-2026-07-27/ค่าเข้าสวนสนุก.fprg>) |
 
 ## แนวคิดที่ฝึก
 
