@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#3605;&#3619;&#3623;&#3592;&#3626;&#3636;&#3607;&#3608;&#3636;&#3660;&#3626;&#3617;&#3633;&#3588;&#3619;&#3591;&#3634;&#3609;"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-28 06:17:34 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yODswNToyODoxOCBQTTszMzk1"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yODswNjoxNzozNCBQTTsxOzM1MDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age, experience" type="Integer" array="False" size=""/>
+            <declare name="education, Bachelor, Diploma" type="String" array="False" size=""/>
+            <output expression="&quot;Enter Age (years)&quot;" newline="True"/>
+            <input variable="age"/>
+            <do expression="Experience&lt;0">
+                <output expression="&quot;Enter Experience (years)&quot;" newline="True"/>
+                <input variable="Experience"/>
+            </do>
+            <output expression="&quot;Enter Education (Bachelor or Diploma)&quot;" newline="True"/>
+            <input variable="Education"/>
+            <if expression="age&gt;=20 and age&lt;=35 and experience&gt;0 and Education=&quot;Bachelor&quot;">
+                <then>
+                    <output expression="&quot;Eligible&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Not eligible&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

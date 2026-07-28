@@ -1,8 +1,8 @@
 # COS1103 Flowgorithm Practice
 
-แบบฝึกหัดส่วนตัวสำหรับฝึกออกแบบอัลกอริทึมด้วย **Flowgorithm และ Pseudocode** โดยยึดไฟล์ต้นฉบับและภาพหน้าจอจริงจากโปรแกรมเป็นหลัก
+แบบฝึกหัดส่วนตัวสำหรับฝึกออกแบบอัลกอริทึมด้วย **Flowgorithm และ Pseudocode** โดยยึดไฟล์ต้นฉบับเป็นหลัก และใช้ภาพหน้าจอจริงจากโปรแกรมเมื่อมี
 
-> A first-year computer science practice repository containing 18 Flowgorithm programs with readable pseudocode and real Flowgorithm screenshots.
+> A first-year computer science practice repository containing 21 Flowgorithm programs with readable pseudocode, original `.fprg` files, and Flowgorithm screenshots where available.
 
 ## ไฟล์แต่ละแบบ
 
@@ -69,6 +69,16 @@
 | แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
 |---|---|---|
 | ค่าเข้าสวนสนุก | [ดูภาพจริง + Pseudocode](<06-if-else-practice-2026-07-27/ค่าเข้าสวนสนุก.md>) | [ดาวน์โหลด `.fprg`](<06-if-else-practice-2026-07-27/ค่าเข้าสวนสนุก.fprg>) |
+
+## Practice If–Else 07/28/2026
+
+แบบฝึก `If...Else` จำนวน 3 ข้อจากวันที่ 28 กรกฎาคม 2026 พร้อมไฟล์ `.fprg` และ Pseudocode ที่ถอดตามไฟล์ต้นฉบับ
+
+| แบบฝึกหัด | อ่านบน GitHub | ไฟล์ Flowgorithm |
+|---|---|---|
+| ตรวจสิทธิ์สมัครงาน | [อ่าน Pseudocode](<07-if-else-practice-2026-07-28/ตรวจสิทธิ์สมัครงาน.md>) | [ดาวน์โหลด `.fprg`](<07-if-else-practice-2026-07-28/ตรวจสิทธิ์สมัครงาน.fprg>) |
+| ระบบคิดค่าไฟฟ้าแบบขั้นบันได | [อ่าน Pseudocode](<07-if-else-practice-2026-07-28/ระบบคิดค่าไฟฟ้าแบบขั้นบันได.md>) | [ดาวน์โหลด `.fprg`](<07-if-else-practice-2026-07-28/ระบบคิดค่าไฟฟ้าแบบขั้นบันได.fprg>) |
+| หาค่ามากที่สุดจาก 3 จำนวน | [อ่าน Pseudocode](<07-if-else-practice-2026-07-28/หาค่ามากที่สุดจาก 3 จำนวน.md>) | [ดาวน์โหลด `.fprg`](<07-if-else-practice-2026-07-28/หาค่ามากที่สุดจาก 3 จำนวน.fprg>) |
 
 ## แนวคิดที่ฝึก
 

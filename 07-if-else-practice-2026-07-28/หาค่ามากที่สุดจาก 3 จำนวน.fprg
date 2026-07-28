@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#3627;&#3634;&#3588;&#3656;&#3634;&#3617;&#3634;&#3585;&#3607;&#3637;&#3656;&#3626;&#3640;&#3604;&#3592;&#3634;&#3585; 3 &#3592;&#3635;&#3609;&#3623;&#3609;"/>
+        <attribute name="authors" value="VICTUS GAMING 16"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-07-28 10:43:01 PM"/>
+        <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yODswODozMDozMiBQTTszMzg3"/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yODsxMDo0MzowMSBQTTsxOzM0ODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, Maximum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Enter B&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Enter C&quot;" newline="True"/>
+            <input variable="C"/>
+            <if expression="a&gt;=b">
+                <then>
+                    <if expression="a&gt;=c">
+                        <then>
+                            <assign variable="Maximum" expression="a"/>
+                        </then>
+                        <else>
+                            <assign variable="Maximum" expression="c"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b&gt;=c">
+                        <then>
+                            <assign variable="Maximum" expression="b"/>
+                        </then>
+                        <else>
+                            <assign variable="Maximum" expression="c"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Maximum = &quot;&amp;Maximum" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
