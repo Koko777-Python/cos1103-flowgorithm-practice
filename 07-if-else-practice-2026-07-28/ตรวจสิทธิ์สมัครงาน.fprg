@@ -4,17 +4,19 @@
         <attribute name="name" value="&#3605;&#3619;&#3623;&#3592;&#3626;&#3636;&#3607;&#3608;&#3636;&#3660;&#3626;&#3617;&#3633;&#3588;&#3619;&#3591;&#3634;&#3609;"/>
         <attribute name="authors" value="VICTUS GAMING 16"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-28 06:17:34 PM"/>
+        <attribute name="saved" value="2026-08-03 10:12:27 PM"/>
         <attribute name="created" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yODswNToyODoxOCBQTTszMzk1"/>
-        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wNy0yODswNjoxNzozNCBQTTsxOzM1MDA="/>
+        <attribute name="edited" value="VklDVFVTIEdBTUlORyAxNjtERVNLVE9QLTFDS0EzSzc7MjAyNi0wOC0wMzsxMDoxMjoyNyBQTTsyOzM0ODc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="age, experience" type="Integer" array="False" size=""/>
-            <declare name="education, Bachelor, Diploma" type="String" array="False" size=""/>
-            <output expression="&quot;Enter Age (years)&quot;" newline="True"/>
-            <input variable="age"/>
+            <declare name="education" type="String" array="False" size=""/>
+            <do expression="age&lt;=0">
+                <output expression="&quot;Enter Age (years)&quot;" newline="True"/>
+                <input variable="age"/>
+            </do>
             <do expression="Experience&lt;0">
                 <output expression="&quot;Enter Experience (years)&quot;" newline="True"/>
                 <input variable="Experience"/>
